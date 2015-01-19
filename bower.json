@@ -1,0 +1,21 @@
+{
+  "name": "button-clicker-react-reflux",
+  "version": "0.0.0",
+  "authors": [
+    "Mark Rushakoff <mark.rushakoff@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "/vendor/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.12.2",
+    "reflux": "~0.2.3"
+  }
+}

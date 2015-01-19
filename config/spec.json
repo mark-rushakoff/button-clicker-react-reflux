@@ -1,0 +1,13 @@
+{
+  "framework" : "jasmine2",
+  "launch_in_dev" : ["Chrome"],
+  "launch_in_ci" : ["PhantomJS"],
+  "src_files" : [
+    "vendor/bower/react/react-with-addons.js",
+    "vendor/bower/reflux/dist/reflux.min.js",
+    "spec/helpers/**/*.js",
+    "spec/**/*.js",
+    "app/js/_init.js",
+    "app/js/**/*.js"
+  ]
+}
