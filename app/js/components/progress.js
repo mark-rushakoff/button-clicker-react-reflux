@@ -1,6 +1,7 @@
 ;(function(ns) {
   ns.Progress = React.createClass({
     mixins: [Reflux.ListenerMixin],
+    displayName: 'Progress',
     propTypes: {
       stores: React.PropTypes.shape({
         progress: React.PropTypes.any.isRequired

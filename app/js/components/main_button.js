@@ -1,5 +1,6 @@
 ;(function(ns) {
   ns.MainButton = React.createClass({
+    displayName: 'MainButton',
     propTypes: {
       actions: React.PropTypes.shape({
         mainButtonClicked: React.PropTypes.func.isRequired

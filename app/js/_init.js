@@ -3,6 +3,7 @@
     Components: {},
     Factories: {
       Actions: {},
+      Controllers: {},
       Stores: {}
     }
   };
