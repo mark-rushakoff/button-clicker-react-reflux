@@ -1,7 +1,8 @@
 ;(function(ns) {
   ns.make = function() {
     return Reflux.createActions([
-      'mainButtonClicked'
+      'mainButtonClicked',
+      'appStateLoaded'
     ]);
   };
 })(App.Factories.Actions);

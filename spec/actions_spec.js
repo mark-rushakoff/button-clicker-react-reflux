@@ -6,5 +6,6 @@ describe('app actions', function() {
 
   Then('the expected actions exist', function() {
     expect(actions.mainButtonClicked).toBeDefined();
+    expect(actions.appStateLoaded).toBeDefined();
   });
 });
